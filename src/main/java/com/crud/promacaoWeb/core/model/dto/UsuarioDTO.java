@@ -15,7 +15,7 @@ public class UsuarioDTO {
 	private String email;
 	
 	@NotNull
-	@Positive(message = "idade inválida!")
-	private int age;
+	@Positive(message = "Idade inválida!")
+	private int idade;
 	
 }

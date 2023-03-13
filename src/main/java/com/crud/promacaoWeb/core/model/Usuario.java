@@ -22,6 +22,6 @@ public class Usuario {
 	private String email;
 	
 	@Positive
-	private int age;
+	private int idade;
 	
 }
