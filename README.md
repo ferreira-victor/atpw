@@ -18,6 +18,6 @@
 
 - [ ] Adicione validações nos campos do objeto Customer para garantir que name e email sejam obrigatórios e que age seja um número positivo.
 
-- [ ] Implemente as operações CRUD usando JpaRepository (`+ 0,5 pontos`).
+- [ ] Implemente as operações CRUD.
 
-- [ ] Use o Postman ou outra ferramenta similar para testar os endpoints RESTful (`Apresentar`).
+- [ ] Use o Postman ou outra ferramenta similar para testar os endpoints RESTful (`Apresentar + 0,5 pontos`).
