@@ -48,7 +48,7 @@ public class UsuarioServico {
 			throw new Exception("Usuario não encontrado!");
 		}
 		
-		if (usuarioExistente.get().getEmail() != usuarioDTO.getEmail() && repositorio.existsByEmail(usuarioDTO.getEmail())) {
+		if (!usuarioExistente.get().getEmail().equals(usuarioDTO.getEmail()) && repositorio.existsByEmail(usuarioDTO.getEmail())) {
 			throw new Exception("Usuario com esse email já cadastrado!");
 		}
 		
